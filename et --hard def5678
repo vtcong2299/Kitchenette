@@ -1,0 +1,25 @@
+[33m2430c59[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mKitchenette/main[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m22c5c9e[m HEAD@{1}: reset: moving to HEAD~1
+[33mbd77862[m HEAD@{2}: revert: Revert "add asset"
+[33m22c5c9e[m HEAD@{3}: commit: add asset
+[33m2430c59[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mKitchenette/main[m[33m)[m HEAD@{4}: commit: add asset nặng
+[33ma36e95e[m HEAD@{5}: commit: Add material guest
+[33me8cb9e1[m HEAD@{6}: commit: Add textures guest
+[33mb8a5620[m HEAD@{7}: reset: moving to b8a5620677bcf8260e7c280f42a76ce3a7220522
+[33m64f70c1[m HEAD@{8}: reset: moving to 64f70c1c31f4e1f800c4effe2fdb47c3dd8821cc
+[33m64f70c1[m HEAD@{9}: commit: Add textures guest
+[33mb8a5620[m HEAD@{10}: commit: Add textures guest
+[33m1cb2daa[m HEAD@{11}: commit: Add textures guest
+[33ma4a63a6[m HEAD@{12}: commit: Add textures guest
+[33mfa000e4[m HEAD@{13}: commit: Add fbx Guest
+[33m404a4e9[m HEAD@{14}: commit: Add scripts Player, Guest and UI
+[33m91004de[m HEAD@{15}: commit: Add Scene and script GamePlay
+[33mce62f9b[m HEAD@{16}: commit: Add Animation, conffig, prefab
+[33m20c0dd3[m HEAD@{17}: commit: Add LeanTween
+[33mbc38dde[m HEAD@{18}: commit: Add Asset
+[33ma955a01[m HEAD@{19}: commit: Add Asset
+[33m154ae75[m HEAD@{20}: commit: Add Asset
+[33m380d186[m HEAD@{21}: commit: Add Asset
+[33ma6f48ac[m HEAD@{22}: commit: Add Asset
+[33m48a81eb[m HEAD@{23}: commit: Add asset
+[33m4307136[m HEAD@{24}: commit (initial): add asset

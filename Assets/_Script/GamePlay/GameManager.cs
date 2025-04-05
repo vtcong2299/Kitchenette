@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class GameManager : MonoBehaviour
     private int fps = 0;
     [SerializeField]
     private float timeDelayUpdatePfs = 0f;
-    public float timePlayGame = 300;
+    public float timePlayGame = 600;
     public float distance = 2f;
     public int money = 0;
     public int idFood;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     public bool hasFoodInHand;
     private void OnEnable()
     {
+        SetFPS();
         instance = this;
     }
     private void OnDisable()
@@ -36,6 +38,10 @@ public class GameManager : MonoBehaviour
         {
             recipes.Add(food.recipe);
         }
+    }
+    public void SetFPS()
+    {
+        Application.targetFrameRate = 45;
     }
     private void Start()
     {
@@ -127,7 +133,7 @@ public class GameManager : MonoBehaviour
         {
             posNotHasGuest.Add(obj.gameObject);
         }
-        timePlayGame = 300;
+        timePlayGame = 600;
         SpawnGuest.instance.timeSpawn = 0;
         money = 0;
         UIManager.instance.OnChangeMoneyUI(money);
